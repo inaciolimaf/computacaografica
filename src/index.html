@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar System 3D</title>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          font-family: Arial, sans-serif;
+          background: #000;
+      }
+
+      #info {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          color: white;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 15px;
+          border-radius: 8px;
+          font-size: 14px;
+          z-index: 100;
+          max-width: 250px;
+      }
+
+      #controls {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          color: white;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 15px;
+          border-radius: 8px;
+          z-index: 100;
+      }
+
+      button {
+          background: #444;
+          color: white;
+          border: none;
+          padding: 8px 12px;
+          margin: 2px;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+
+      button:hover {
+          background: #666;
+      }
+
+      #loading {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          font-size: 18px;
+      }
+  </style>
+</head>
+<body>
+  <div id="loading">Loading Solar System...</div>
+  
+  <div id="info">
+      <h3>Sistema Solar 3D</h3>
+      <p>Use o mouse para navegar:</p>
+      <ul>
+          <li>Arrastar: Rotacionar</li>
+          <li>Scroll: Zoom</li>
+          <li>Botão direito: Pan</li>
+      </ul>
+      <p>Também utilize as teclas:</p>
+      <ul>
+          <li><strong>P</strong> - Pausar/Continuar</li>
+          <li><strong>R</strong> - Reset Camera</li>
+          <li><strong>S</strong> - Alterar Velocidade</li>
+      </ul>
+  </div>
+
+  <div id="controls">
+      <button onclick="toggleAnimation()">Pausar/Continuar</button>
+      <button onclick="resetCamera()">Reset Camera</button>
+      <button onclick="toggleSpeed()">Velocidade</button>
+      <div>Velocidade: <span id="speedDisplay">1x</span></div>
+  </div>
+
+  <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>
