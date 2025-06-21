@@ -82,6 +82,13 @@ projeto/
 Link para o vídeo de demonstração no YouTube:  
 [**Clique aqui para assistir**](https://youtu.be/seu-link-aqui)
 
+## Créditos de Imagens
+
+As texturas utilizadas neste projeto foram obtidas de fontes públicas e educativas, exclusivamente para fins acadêmicos:
+
+- [Solar System Scope Textures](https://www.solarsystemscope.com/textures) — Texturas de planetas, Sol e luas
+- [NASA Image and Video Library](https://images.nasa.gov/) — Imagens astronômicas de domínio público
+
 ## Equipe
 
 - **FRANCISCO SILVAN FELIPE DO CARMO** — 496641  
