@@ -33,7 +33,7 @@ git clone https://github.com/inaciolimaf/computacaografica.git
 cd computacaografica
 ```
 
-2. Instale as dependências (supondo uso de Vite ou outro bundler compatível):
+2. Instale as dependências :
 
 ```bash
 npm install
@@ -57,8 +57,16 @@ http://localhost:1234
 Link para o vídeo de demonstração no YouTube:  
 [**Clique aqui para assistir**](https://youtu.be/seu-link-aqui)
 
-
 ![image](https://github.com/user-attachments/assets/85c852b1-b1d4-4b59-9518-dab11d8798dc)
+
+
+## Créditos de Imagens
+
+As texturas utilizadas neste projeto foram obtidas de fontes públicas e educativas, exclusivamente para fins acadêmicos:
+
+- [Solar System Scope Textures](https://www.solarsystemscope.com/textures) — Texturas de planetas, Sol e luas
+- [NASA Image and Video Library](https://images.nasa.gov/) — Imagens astronômicas de domínio público
+
 
 ## Equipe
 
