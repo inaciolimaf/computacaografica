@@ -33,7 +33,7 @@ git clone https://github.com/inaciolimaf/computacaografica.git
 cd computacaografica
 ```
 
-2. Instale as dependências (supondo uso de Vite ou outro bundler compatível):
+2. Instale as dependências :
 
 ```bash
 npm install
