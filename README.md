@@ -6,6 +6,10 @@ Este projeto apresenta uma **simulação interativa em 3D do Sistema Solar**, de
 
 A simulação busca representar os corpos celestes principais do Sistema Solar em uma cena 3D, com movimento de translação ao redor do Sol, rotação individual, anéis, lua da Terra e controle total de visualização via mouse e teclado.
 
+## Vídeo Explicativo 
+
+https://youtu.be/M26xw1fQa2E
+
 ## Funcionalidades
 
 - Sol com textura e iluminação pontual.
