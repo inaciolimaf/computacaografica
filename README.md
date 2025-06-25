@@ -6,10 +6,14 @@ Este projeto apresenta uma **simulação interativa em 3D do Sistema Solar**, de
 
 A simulação busca representar os corpos celestes principais do Sistema Solar em uma cena 3D, com movimento de translação ao redor do Sol, rotação individual, anéis, lua da Terra e controle total de visualização via mouse e teclado.
 
+## Vídeo Explicativo 
+
+https://youtu.be/M26xw1fQa2E
+
 ## Funcionalidades
 
 - Sol com textura e iluminação pontual.
-- Planetas com texturas realistas e tamanhos proporcionais.
+- Planetas com texturas realistas.
 - Anéis de Saturno e Urano com textura transparente.
 - Lua orbitando a Terra.
 - Translação dos planetas em torno do Sol e rotação em torno de seus próprios eixos.
@@ -45,42 +49,20 @@ npm install
 npm run dev
 ```
 
-4. Acesse a aplicação no navegador. Geralmente, estará disponível em:
+4. Acesse a aplicação no navegador. Estará disponível em:
 
 ```
 http://localhost:1234
 ```
 
-> ⚠️ O projeto utiliza `import` de módulos e imagens. Por isso, **não abra diretamente o `index.html` no navegador**. A porta do localhost pode variar, mas é só clicar quando aparecer no terminal.
-
-## Estrutura Esperada
-
-```
-projeto/
-├── index.html
-├── js/
-│   └── scripts.js
-└── img/
-    ├── stars.jpg
-    ├── sun.jpg
-    ├── mercury.jpg
-    ├── venus.jpg
-    ├── earth.jpg
-    ├── moon.jpg
-    ├── mars.jpg
-    ├── jupiter.jpg
-    ├── saturn.jpg
-    ├── saturn_ring.png
-    ├── uranus.jpg
-    ├── uranus_ring.png
-    ├── neptune.jpg
-    └── pluto.jpg
-```
 
 ## Demonstração
 
 Link para o vídeo de demonstração no YouTube:  
 [**Clique aqui para assistir**](https://youtu.be/seu-link-aqui)
+
+![image](https://github.com/user-attachments/assets/85c852b1-b1d4-4b59-9518-dab11d8798dc)
+
 
 ## Créditos de Imagens
 
@@ -88,6 +70,7 @@ As texturas utilizadas neste projeto foram obtidas de fontes públicas e educati
 
 - [Solar System Scope Textures](https://www.solarsystemscope.com/textures) — Texturas de planetas, Sol e luas
 - [NASA Image and Video Library](https://images.nasa.gov/) — Imagens astronômicas de domínio público
+
 
 ## Equipe
 
